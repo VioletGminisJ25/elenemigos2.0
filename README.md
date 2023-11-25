@@ -4,6 +4,7 @@ In this proyect I will recreate my reviews website (www.elenemigos.github.io) us
 ## The structure of this proyect
 I use the structure predefined of astro
 ```
+\
 |
 |-public
 |    |-logo.png
