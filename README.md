@@ -6,20 +6,20 @@ I use the structure predefined of astro
 ```
 \
 |
-|-public
-|    |-logo.png
+|-- public
+|    |-- logo.png
 |
-|-src
-|  |-components
-|  |    |-navbar.astro
-|  |-layouts
-|  |    |-Layout.astro
-|  |-pages
-|       |-index.astro
-|-astro.config.mjs
-|-package.json
-|-Readme.md
-|-tailwind.config.mjs
-|-tsconfig.json
+|-- src
+|  |-- components
+|  |    |-- navbar.astro
+|  |-- layouts
+|  |    |-- Layout.astro
+|  |-- pages
+|       |-- index.astro
+|-- astro.config.mjs
+|-- package.json
+|-- Readme.md
+|-- tailwind.config.mjs
+|-- tsconfig.json
 
 ```
