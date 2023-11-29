@@ -4,7 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
-import Nav from '../components/navbar.astro'
+import Nav from "../components/navbar.astro";
 ---
 
 <!doctype html>
@@ -12,13 +12,20 @@ import Nav from '../components/navbar.astro'
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+			rel="stylesheet"
+		/>
+
 		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body class="w-full h-auto">
-		<Nav></Nav>
+		<Nav />
 		<slot />
 	</body>
 </html>
@@ -30,6 +37,15 @@ import Nav from '../components/navbar.astro'
 		scroll-behavior: smooth;
 		color: white;
 		text-decoration: none;
+	}
+	a {
+		transition: all 0.5s;
+		font-size: 1.2em;
+		font-family: 'Rubik Glitch', cursive;
+	}
+	a:hover {
+		transition: all 0.5s;
+		color: rgb(239, 68, 68);
 	}
 	code {
 		font-family:
