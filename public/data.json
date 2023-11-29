@@ -1,0 +1,38 @@
+[
+  {
+    "gameName": "Ghost of Tsushima",
+    "image": "imagenes/gost_tsuchima.jpeg",
+    "id": "Ghost",
+    "reference": "../html/reviews.html"
+  },
+  {
+    "gameName": "Assassin's Creed I",
+    "id": "Assasins",
+    "image": "imagenes/assasins_creed_1.jpeg",
+    "reference": "../html/reviews.html"
+  },
+  {
+    "gameName": "Metal Gear Solid 3: Snake Eater",
+    "id": "Metal",
+    "image": "imagenes/Metal_Gear_Solid_3_Snake_Eater.jpg",
+    "reference": "../html/reviews.html"
+  },
+  {
+    "gameName": "Devil May Cry",
+    "image": "imagenes/DevilMayCry.jpg",
+    "id": "Devil",
+    "reference": "../html/reviews.html"
+  },
+  {
+    "gameName": "Castelvania: Lords of the Shadow",
+    "image": "imagenes/castelvania.jpg",
+    "id": "Castelvania",
+    "reference": "../html/reviews.html"
+  },
+  {
+    "gameName": "Toem: A photo adventure",
+    "image": "imagenes/toem.jpg",
+    "id": "Toem",
+    "reference": "../html/reviews.html"
+  }
+]
