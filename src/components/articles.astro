@@ -1,12 +1,13 @@
 ---
-fetch('https://localhost:4321/data.json')
-  .then(res => res.json()) // el método .json() analiza la respuesta JSON en un objeto literal JS
-  .then(data => console.log(data));
 
 ---
 
-<article>
-	<div id="container">
-		<a href="#"></a>
-	</div>
+<article class="w-72 h-72">
+	<a class="w-full h-full hover:border-red-500 hover:border" href="#">
+		<div
+			class="bg-[url('/images/gost_tsuchima.jpeg')] w-full h-full bg-cover bg-center rounded-2xl"
+			id="container"
+		>
+		</div>
+	</a>
 </article>
